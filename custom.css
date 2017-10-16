@@ -1,0 +1,151 @@
+/* ==============================================
+   Fonts
+   ============================================== */
+   @import url('https://fonts.googleapis.com/css?family=Ubuntu:700');
+   @import url('https://fonts.googleapis.com/css?family=Lato');
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+
+/* Basis */
+body{
+    background-image: url("images/Achtergrond.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+.container{
+    margin-bottom: 30px;
+}
+h1,h2{
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+}
+.intro{
+    font-family: 'Lato', sans-serif;
+}
+em{
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    margin-top: 20px;
+    opacity: 0.9;
+}
+
+
+/* Knoppen */
+.koopknop{
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(20, 51, 105);
+    border-radius: 20px;
+}
+.koopknop:hover{
+    font-weight: bold;
+    background-color: rgba(15, 35, 70, 0.6);
+    color: white;
+    text-decoration: none;
+}
+a.facebook:hover{
+    opacity: 0.6
+}
+button{
+    padding: 6px;
+    background-color:  rgb(20, 51, 105);
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+}
+.btn{
+    border: none;
+    background: none;
+    border-style: none;
+}
+.btn-primary{
+    border-radius: 0px;
+    border: none;
+    background: none;
+    border-color: white;
+}
+.btn-primary{
+    border: none;
+    background: none;
+}
+.d-flex{
+    margin-top: 15px;
+}
+.d-flex a{
+    display: block;
+    padding-left: 20px;
+}
+
+
+/* Collapse */
+.card{
+    border-radius: 0px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.card-header{
+    margin-top: 15px;
+    background-color: rgb(44, 70, 117);
+}
+.card-text{
+    padding: 2px;
+}
+p.card-text strong{
+    font-style: italic;
+    float: left;
+}
+.panel-heading {
+    background-color: none;
+    color: white;
+}
+a.panel-heading:hover{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.panel-body {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+.collapse{
+    padding: 10px;
+}
+.collapse p{
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+}
+
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
